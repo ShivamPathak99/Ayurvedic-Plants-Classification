@@ -6,9 +6,6 @@ aiostream==0.4.5
 altair==4.2.2
 async-timeout==4.0.2
 blinker==1.7.0
-conda==23.1.0
-pytz-deprecation-shim==0.1.0.post0
-pywebview==5.1
 streamlit
 fastcore
 fastai

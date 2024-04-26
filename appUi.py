@@ -1,15 +1,15 @@
-import streamlit as st
-from fastcore.all import *
-from fastai.vision.all import *
+import streamlit as st # For UI Interface 
+from fastcore.all import * # Dependencies 
+from fastai.vision.all import * # Machine Learing Library 
 from pathlib import Path
-import requests
-from g4f.client import Client
+import requests # 
+from g4f.client import Client  # Gpt Client GPT 3.5 Turbo 
 
 # Set page configuration
 st.set_page_config(layout="wide", page_title="Ayurvedic Plant Classifier")
 
 # Define the path to your model file
-model_path = Path('plant_model.pkl')
+model_path = Path('plant_model.pkl')  # Improting model from its directory pwd
 
 # Load the model using the Path object
 learn_inf = load_learner(model_path)

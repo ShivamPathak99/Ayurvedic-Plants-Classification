@@ -9,3 +9,6 @@
 * Moringa
 * Neem
 * Gotu Kola 
+
+
+App 👏 [https://ayurvedic-plants-classification-uiet.streamlit.app/]

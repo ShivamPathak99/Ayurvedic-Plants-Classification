@@ -1,11 +1,7 @@
 import streamlit as st # For UI Interface 
 from fastcore.all import * # Dependencies 
 from fastai.vision.all import * # Machine Learing Library 
-from pathlib import Path
-from fastai.vision.all import *
-from fastai.text.all import *
-from fastai.collab import *
-from fastai.tabular.all import * 
+from pathlib import Path 
 import requests # 
 from g4f.client import Client  # Gpt Client GPT 3.5 Turbo 
 
